@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6d0180/X/v1
+canonical_location: https://kanripo.org/bkk/KR6d0180/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛錍論義解
+  identifiers:
+    krp: KR6d0180
+    cbeta: X56n0936
+    cbeta_old_id: X56n0936
+    authorityid: CA0001616
+    json_key: X0936
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X56/X56n0936.xml
+    old_id: X56n0936
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0180_000-X.yaml, hash: 'sha256:e9bfd28349c81d79c03248a3a115b20b35f69935b6805b75b81d42cd534dc23b'}
+  - {seq: 1, filename: KR6d0180_001-X.yaml, hash: 'sha256:7d8294d20cb51857c25b3fca9dd23ef95a29bf9905b96cb0c57a1e2c64f0ee87'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0180_000-X.markers.yaml, hash: 'sha256:c85635fa29fafae1160618b4c4c5bab44d326e22c91afb27e46309db84c8f74a'}
+  - {seq: 1, role: markers, filename: assets/KR6d0180_001-X.markers.yaml, hash: 'sha256:ebe3bbd81d70dca2ee8a0fd820ac605ab2e99a35969dd167cdfab7e5e3b640dd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0180_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 13857
+  label: 金剛錍義解之中
+  type: juan
+  level: 1
+hash: sha256:619510466a6a58acc7a407137e403330aac77b0808b7b7f06763deae8cc073d2

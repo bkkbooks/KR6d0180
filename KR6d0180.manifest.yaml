@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6d0180/v1
+canonical_location: https://kanripo.org/bkk/KR6d0180/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛錍論義解
+  identifiers:
+    alt_id:
+    - X56n0936
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X56/X56n0936.xml
+    old_id: X56n0936
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0180_000.yaml, hash: 'sha256:e9bfd28349c81d79c03248a3a115b20b35f69935b6805b75b81d42cd534dc23b'}
+  - {seq: 1, filename: KR6d0180_001.yaml, hash: 'sha256:2a7e95d110cedc7abab2a7a37f345175ba544c7ed162ec260e3e4c7788ba20cd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0180_001.markers.yaml, hash: 'sha256:3b3db181a97d6ddb1dba31e55c0785754d4ecd7a780bf806bcb353623146c2b0'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0180_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 13857
+  label: 金剛錍義解之中
+  type: juan
+  level: 1
+hash: sha256:1a11d29991240c226968005e71743d788976bb2a61e36f36b866b4c159ef696c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
