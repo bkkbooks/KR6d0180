@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0180_000.yaml, hash: 'sha256:e9bfd28349c81d79c03248a3a115b20b35f69935b6805b75b81d42cd534dc23b'}
-  - {seq: 1, filename: KR6d0180_001.yaml, hash: 'sha256:2a7e95d110cedc7abab2a7a37f345175ba544c7ed162ec260e3e4c7788ba20cd'}
+  - {seq: 1, filename: KR6d0180_001.yaml, hash: 'sha256:7d8294d20cb51857c25b3fca9dd23ef95a29bf9905b96cb0c57a1e2c64f0ee87'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6d0180_001.markers.yaml, hash: 'sha256:3b3db181a97d6ddb1dba31e55c0785754d4ecd7a780bf806bcb353623146c2b0'}
+  - {seq: 0, role: markers, filename: assets/KR6d0180_000.markers.yaml, hash: 'sha256:785144fdbef7163219e0ad5bb0827c41c1a1694afb9c4dc9f4505568c24a116d'}
+  - {seq: 1, role: markers, filename: assets/KR6d0180_001.markers.yaml, hash: 'sha256:8c7d412867dcf7d0ea0a251afc95deb96b7b58e13a8047cf09877c647f2aede7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 金剛錍義解之中
   type: juan
   level: 1
-hash: sha256:1a11d29991240c226968005e71743d788976bb2a61e36f36b866b4c159ef696c
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c01556e65dd88cb71c182f3f0acbd4adba27ab529332af8c43a9e3d40a177b3a
